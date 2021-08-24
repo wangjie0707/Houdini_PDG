@@ -1,0 +1,13 @@
+hda name: C:/Users/klamme/Desktop/Work_Folder/Current_Projects/Side_Effects/PDG/Course_Content/Intro_To_PDG/hda/ip_box_variations.hda
+operatortype: Object/klamme_ip_box_variations
+
+Loaded asset from 'C:/Users/klamme/Desktop/Work_Folder/Current_Projects/Side_Effects/PDG/Course_Content/Intro_To_PDG/hda/ip_box_variations.hda' 
+Creating node from operator 'Object/klamme_ip_box_variations'
+
+Setting float parm 'color' to: 0.473884, 0.369104, 0.568576, 0.71269
+Setting float parm 'scale' to: 0.755126
+Setting float parm 'scale2' to: 0.755126
+Shutting down HAPI...
+PDG_RESULT: __PDG_DIR__/geo/hdaprocessor1.hdaprocessor10_2.bgeo.sc : file/geo
+HAPI shutdown
+
