@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.31222638, g: 0.3008266, b: 0.25203365, a: 1}
+  m_IndirectSpecularColor: {r: 0.4507963, g: 0.5007248, b: 0.5747358, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &31660759
+--- !u!114 &20252331
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,12 +135,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51ce3a7cc3f38404592fdd27226cb0a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _partID: 0
-  _partName: control1_0
-  _objectNodeID: 19
-  _geoID: 20
+  _partID: 2
+  _partName: control1_2
+  _objectNodeID: 3
+  _geoID: 4
   _partType: 3
-  _geoNode: {fileID: 1313930059}
+  _geoNode: {fileID: 469788608}
   _isAttribInstancer: 0
   _isPartInstanced: 0
   _partPointCount: 0
@@ -157,7 +157,7 @@ MonoBehaviour:
   _meshVertexCount: 0
   _generatedOutput:
     _outputData:
-      _gameObject: {fileID: 718178006}
+      _gameObject: {fileID: 1161727349}
       _renderMaterials: []
       _colliders: []
     _childOutputs: []
@@ -239,213 +239,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 46887987}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.6343608, y: 0.007084491, z: 0.008632314, w: 0.77295643}
+  m_LocalPosition: {x: -4, y: 190, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &498198778
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 498198779}
-  - component: {fileID: 498198780}
-  m_Layer: 0
-  m_Name: wy_level_creation_top3_topnet1_texture_terrain_4_0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &498198779
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498198778}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1839252588}
-  m_Father: {fileID: 730948560}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &498198780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498198778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee3684c2b1b78ea459b0ee6f9708a350, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _cookNodeID: 26
-  _sessionID: 1751797679888
-  _nodeName: 
-  _initialized: 1
-  _syncing: 0
-  _deleteParent: 0
-  _generatedOutputs:
-  - _outputData:
-      _gameObject: {fileID: 1839252587}
-      _renderMaterials: []
-      _colliders: []
-    _childOutputs: []
-    isInstancer: 0
-  _outputCacheDirectory: Assets/HoudiniEngineAssetCache/Working/wy_level_creation_top
-    2/PDGCache
-  _outputCacheFilePaths: []
-  _generateOptions:
-    _generateUVs: 0
-    _generateTangents: 1
-    _generateNormals: 1
-    _useLODGroups: 1
-    _splitPoints: 0
-  _sessionSyncAutoCook: 1
-  _filePath: D:/WorkSpaces/Git/Houdini_PDG/PDG/PDG_Test/geo/texture_terrain.bego.sc
---- !u!1 &508537468
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 508537469}
-  m_Layer: 0
-  m_Name: null1_control1_control1_2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &508537469
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 508537468}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1251452664}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &612682985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51ce3a7cc3f38404592fdd27226cb0a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _partID: 2
-  _partName: control1_2
-  _objectNodeID: 19
-  _geoID: 20
-  _partType: 3
-  _geoNode: {fileID: 1313930059}
-  _isAttribInstancer: 0
-  _isPartInstanced: 0
-  _partPointCount: 0
-  _isObjectInstancer: 0
-  _objectInstancesGenerated: 0
-  _objectInstanceInfos: []
-  _terrainOffsetPosition: {x: 0, y: 0, z: 0}
-  _assetDBTerrainData: {fileID: 0}
-  _isPartEditable: 0
-  _partOutputType: 4
-  _curve: {fileID: 0}
-  _attributesStore: {fileID: 0}
-  _haveInstancesBeenGenerated: 0
-  _meshVertexCount: 0
-  _generatedOutput:
-    _outputData:
-      _gameObject: {fileID: 508537468}
-      _renderMaterials: []
-      _colliders: []
-    _childOutputs: []
-    isInstancer: 1
-  _volumeLayerName: 
---- !u!1 &718178006
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 718178007}
-  m_Layer: 0
-  m_Name: null1_control1_control1_0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &718178007
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 718178006}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1251452664}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &730948559
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 730948560}
-  m_Layer: 0
-  m_Name: texture_terrain
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &730948560
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 730948559}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 498198779}
-  m_Father: {fileID: 1830705718}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &821668321
+  m_LocalEulerAnglesHint: {x: 101.320984, y: -173.593, z: -173.467}
+--- !u!114 &108218576
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -457,7 +258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59d17581e5b7f4946a3c54d1fe65c9c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _nodeID: 18
+  _nodeID: 0
   _uiLabel: ASSET PARAMETERS
   _paramInts: 0000000000000000000000000000000000000000000000000100000001000000000000000100000001000000010000000100000064000000
   _paramFloats:
@@ -495,9 +296,9 @@ MonoBehaviour:
   - 1
   - 10
   - 335
-  - 5
-  - 5
-  - 5
+  - 10
+  - 10
+  - 20
   _paramStrings:
   - 
   - 
@@ -511,152 +312,152 @@ MonoBehaviour:
   - _input1_obj_
   - '*'
   - 
-  - D:/WorkSpaces/GIT/Houdini_PDG/PDG/PDG_Test/geo/unity.wy_terrain_layout.bgeo
-  - Terrain/Textures/ground/Grass01_BigUV
-  - 'Terrain/Textures/rock/Stone_diffuse '
-  - Terrain/Textures/grass/Grass_Base_Color
+  - D:/WorkSpaces/Git/Houdini_PDG/PDG/PDG_Test/geo/terrain_layout_001.bgeo
+  - Assets/Learning_To_PDG/Resources/Terrain/Textures/ground/Grass01_BigUV.png
+  - Assets/Learning_To_PDG/Resources/Terrain/Textures/rock/Stone_diffuse.tga
+  - Assets/Learning_To_PDG/Resources/Terrain/Textures/grass/Grass_Base_Color.png
   _paramChoices:
   - parentParmId: 4
-    labelSH: 4759
-    valueSH: 4756
+    labelSH: 56
+    valueSH: 57
   - parentParmId: 4
-    labelSH: 4757
-    valueSH: 4754
+    labelSH: 58
+    valueSH: 59
   - parentParmId: 4
-    labelSH: 4755
-    valueSH: 4752
+    labelSH: 60
+    valueSH: 61
   - parentParmId: 4
-    labelSH: 4753
-    valueSH: 4750
+    labelSH: 62
+    valueSH: 63
   - parentParmId: 4
-    labelSH: 4751
-    valueSH: 4748
+    labelSH: 64
+    valueSH: 65
   - parentParmId: 4
-    labelSH: 4749
-    valueSH: 4777
+    labelSH: 66
+    valueSH: 67
   - parentParmId: 5
-    labelSH: 4775
-    valueSH: 4776
+    labelSH: 72
+    valueSH: 73
   - parentParmId: 5
-    labelSH: 4773
-    valueSH: 4774
+    labelSH: 74
+    valueSH: 75
   - parentParmId: 5
-    labelSH: 4771
-    valueSH: 4772
+    labelSH: 76
+    valueSH: 77
   - parentParmId: 5
-    labelSH: 4769
-    valueSH: 4770
+    labelSH: 78
+    valueSH: 79
   - parentParmId: 5
-    labelSH: 4767
-    valueSH: 4768
+    labelSH: 80
+    valueSH: 81
   - parentParmId: 5
-    labelSH: 4765
-    valueSH: 4766
+    labelSH: 82
+    valueSH: 83
   - parentParmId: 12
-    labelSH: 4798
-    valueSH: 4674
+    labelSH: 112
+    valueSH: 113
   - parentParmId: 12
-    labelSH: 4793
-    valueSH: 4733
+    labelSH: 114
+    valueSH: 115
   - parentParmId: 12
-    labelSH: 4717
-    valueSH: 4803
+    labelSH: 116
+    valueSH: 117
   - parentParmId: 12
-    labelSH: 4804
-    valueSH: 4805
+    labelSH: 118
+    valueSH: 119
   - parentParmId: 12
-    labelSH: 4806
-    valueSH: 4807
+    labelSH: 120
+    valueSH: 121
   - parentParmId: 12
-    labelSH: 4801
-    valueSH: 4802
+    labelSH: 122
+    valueSH: 123
   - parentParmId: 13
-    labelSH: 4794
-    valueSH: 4795
+    labelSH: 108
+    valueSH: 109
   - parentParmId: 13
-    labelSH: 4796
-    valueSH: 4797
+    labelSH: 110
+    valueSH: 111
   - parentParmId: 14
-    labelSH: 4715
-    valueSH: 4736
+    labelSH: 102
+    valueSH: 103
   - parentParmId: 14
-    labelSH: 4738
-    valueSH: 4734
+    labelSH: 100
+    valueSH: 101
   - parentParmId: 15
-    labelSH: 4465
-    valueSH: 4668
+    labelSH: 128
+    valueSH: 129
   - parentParmId: 15
-    labelSH: 4681
-    valueSH: 4817
+    labelSH: 130
+    valueSH: 131
   - parentParmId: 19
-    labelSH: 4840
-    valueSH: 4841
+    labelSH: 161
+    valueSH: 162
   - parentParmId: 19
-    labelSH: 4824
-    valueSH: 4720
+    labelSH: 163
+    valueSH: 164
   - parentParmId: 19
-    labelSH: 4721
-    valueSH: 4722
+    labelSH: 165
+    valueSH: 166
   - parentParmId: 19
-    labelSH: 4275
-    valueSH: 4665
+    labelSH: 167
+    valueSH: 168
   - parentParmId: 19
-    labelSH: 4274
-    valueSH: 4666
+    labelSH: 169
+    valueSH: 170
   - parentParmId: 23
-    labelSH: 4826
-    valueSH: 4586
+    labelSH: 175
+    valueSH: 176
   - parentParmId: 23
-    labelSH: 4466
-    valueSH: 4663
+    labelSH: 177
+    valueSH: 178
   - parentParmId: 31
-    labelSH: 4872
-    valueSH: 4873
+    labelSH: 211
+    valueSH: 212
   - parentParmId: 31
-    labelSH: 4874
-    valueSH: 4875
+    labelSH: 213
+    valueSH: 214
   - parentParmId: 33
-    labelSH: 4908
-    valueSH: 4909
+    labelSH: 247
+    valueSH: 248
   - parentParmId: 33
-    labelSH: 4910
-    valueSH: 4911
+    labelSH: 249
+    valueSH: 250
   - parentParmId: 33
-    labelSH: 4912
-    valueSH: 4913
+    labelSH: 251
+    valueSH: 252
   - parentParmId: 33
-    labelSH: 4914
-    valueSH: 4915
+    labelSH: 253
+    valueSH: 254
   - parentParmId: 33
-    labelSH: 4916
-    valueSH: 4917
+    labelSH: 255
+    valueSH: 256
   - parentParmId: 33
-    labelSH: 4918
-    valueSH: 4919
+    labelSH: 257
+    valueSH: 258
   - parentParmId: 33
-    labelSH: 4920
-    valueSH: 4921
+    labelSH: 259
+    valueSH: 260
   - parentParmId: 33
-    labelSH: 4922
-    valueSH: 4923
+    labelSH: 261
+    valueSH: 262
   - parentParmId: 35
-    labelSH: 4904
-    valueSH: 4905
+    labelSH: 243
+    valueSH: 244
   - parentParmId: 35
-    labelSH: 4906
-    valueSH: 4907
+    labelSH: 245
+    valueSH: 246
   - parentParmId: 37
-    labelSH: 4895
-    valueSH: 4892
+    labelSH: 234
+    valueSH: 231
   - parentParmId: 37
-    labelSH: 4893
-    valueSH: 4890
+    labelSH: 232
+    valueSH: 229
   - parentParmId: 38
-    labelSH: 4929
-    valueSH: 4930
+    labelSH: 268
+    valueSH: 269
   - parentParmId: 38
-    labelSH: 4931
-    valueSH: 4932
+    labelSH: 270
+    valueSH: 271
   _rootParameters: 00000000030000000a00000010000000
   _parameterList:
   - _unityIndex: 0
@@ -720,7 +521,7 @@ MonoBehaviour:
       size: 3
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4705
+      nameSH: 13
       labelSH: 0
       templateNameSH: 0
       helpSH: 0
@@ -818,10 +619,10 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4578
-      labelSH: 4670
-      templateNameSH: 4671
-      helpSH: 4667
+      nameSH: 28
+      labelSH: 29
+      templateNameSH: 31
+      helpSH: 30
       hasMin: 0
       hasMax: 0
       hasUIMin: 0
@@ -864,7 +665,7 @@ MonoBehaviour:
     _intValues: 
     _floatValues: []
     _stringValues:
-    - D:/WorkSpaces/GIT/Houdini_PDG/PDG/PDG_Test/geo/unity.wy_terrain_layout.bgeo
+    - D:/WorkSpaces/Git/Houdini_PDG/PDG/PDG_Test/geo/terrain_layout_001.bgeo
     _toggle: 0
     _color: {r: 0, g: 0, b: 0, a: 0}
     _gradient:
@@ -911,16 +712,16 @@ MonoBehaviour:
       childIndex: 0
       type: 7
       scriptType: 4
-      typeInfoSH: 4939
+      typeInfoSH: 278
       permissions: 1
       tagCount: 2
       size: 1
       choiceListType: 3
       choiceCount: 0
-      nameSH: 4899
-      labelSH: 4896
-      templateNameSH: 4938
-      helpSH: 4937
+      nameSH: 238
+      labelSH: 235
+      templateNameSH: 277
+      helpSH: 276
       hasMin: 0
       hasMax: 0
       hasUIMin: 0
@@ -1015,7 +816,7 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4706
+      nameSH: 14
       labelSH: 0
       templateNameSH: 0
       helpSH: 0
@@ -1113,10 +914,10 @@ MonoBehaviour:
       size: 5
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4894
-      labelSH: 4940
-      templateNameSH: 4942
-      helpSH: 4941
+      nameSH: 233
+      labelSH: 279
+      templateNameSH: 281
+      helpSH: 280
       hasMin: 0
       hasMax: 0
       hasUIMin: 0
@@ -1213,10 +1014,10 @@ MonoBehaviour:
       size: 2
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4943
-      labelSH: 4944
-      templateNameSH: 4946
-      helpSH: 4945
+      nameSH: 282
+      labelSH: 283
+      templateNameSH: 285
+      helpSH: 284
       hasMin: 0
       hasMax: 0
       hasUIMin: 1
@@ -1312,10 +1113,10 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4947
-      labelSH: 4948
-      templateNameSH: 4950
-      helpSH: 4949
+      nameSH: 286
+      labelSH: 287
+      templateNameSH: 289
+      helpSH: 288
       hasMin: 1
       hasMax: 0
       hasUIMin: 1
@@ -1411,10 +1212,10 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4951
-      labelSH: 4952
-      templateNameSH: 4954
-      helpSH: 4953
+      nameSH: 290
+      labelSH: 291
+      templateNameSH: 293
+      helpSH: 292
       hasMin: 0
       hasMax: 0
       hasUIMin: 1
@@ -1510,10 +1311,10 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4955
-      labelSH: 4956
-      templateNameSH: 4958
-      helpSH: 4957
+      nameSH: 294
+      labelSH: 295
+      templateNameSH: 297
+      helpSH: 296
       hasMin: 0
       hasMax: 0
       hasUIMin: 1
@@ -1608,10 +1409,10 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4959
-      labelSH: 4960
-      templateNameSH: 4962
-      helpSH: 4961
+      nameSH: 298
+      labelSH: 299
+      templateNameSH: 301
+      helpSH: 300
       hasMin: 1
       hasMax: 0
       hasUIMin: 1
@@ -1706,7 +1507,7 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4703
+      nameSH: 15
       labelSH: 0
       templateNameSH: 0
       helpSH: 0
@@ -1804,10 +1605,10 @@ MonoBehaviour:
       size: 4
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4964
-      labelSH: 4965
-      templateNameSH: 4967
-      helpSH: 4966
+      nameSH: 303
+      labelSH: 304
+      templateNameSH: 306
+      helpSH: 305
       hasMin: 0
       hasMax: 0
       hasUIMin: 0
@@ -1903,10 +1704,10 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4968
-      labelSH: 4969
-      templateNameSH: 4971
-      helpSH: 4970
+      nameSH: 307
+      labelSH: 308
+      templateNameSH: 310
+      helpSH: 309
       hasMin: 0
       hasMax: 0
       hasUIMin: 1
@@ -2002,10 +1803,10 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4972
-      labelSH: 4973
-      templateNameSH: 4975
-      helpSH: 4974
+      nameSH: 311
+      labelSH: 312
+      templateNameSH: 314
+      helpSH: 313
       hasMin: 1
       hasMax: 0
       hasUIMin: 1
@@ -2101,10 +1902,10 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4976
-      labelSH: 4977
-      templateNameSH: 4979
-      helpSH: 4978
+      nameSH: 315
+      labelSH: 316
+      templateNameSH: 318
+      helpSH: 317
       hasMin: 0
       hasMax: 0
       hasUIMin: 1
@@ -2200,10 +2001,10 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4980
-      labelSH: 4981
-      templateNameSH: 4983
-      helpSH: 4982
+      nameSH: 319
+      labelSH: 320
+      templateNameSH: 322
+      helpSH: 321
       hasMin: 0
       hasMax: 0
       hasUIMin: 1
@@ -2298,7 +2099,7 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4884
+      nameSH: 223
       labelSH: 0
       templateNameSH: 0
       helpSH: 0
@@ -2396,10 +2197,10 @@ MonoBehaviour:
       size: 8
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4985
-      labelSH: 4986
-      templateNameSH: 4988
-      helpSH: 4987
+      nameSH: 324
+      labelSH: 325
+      templateNameSH: 327
+      helpSH: 326
       hasMin: 0
       hasMax: 0
       hasUIMin: 0
@@ -2441,7 +2242,7 @@ MonoBehaviour:
     _choiceValue: 0
     _intValues: 
     _floatValues:
-    - 5
+    - 10
     _stringValues: []
     _toggle: 0
     _color: {r: 0, g: 0, b: 0, a: 0}
@@ -2495,10 +2296,10 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4989
-      labelSH: 4990
-      templateNameSH: 4992
-      helpSH: 4991
+      nameSH: 328
+      labelSH: 329
+      templateNameSH: 331
+      helpSH: 330
       hasMin: 1
       hasMax: 0
       hasUIMin: 1
@@ -2541,7 +2342,7 @@ MonoBehaviour:
     _intValues: 
     _floatValues: []
     _stringValues:
-    - Terrain/Textures/ground/Grass01_BigUV
+    - Assets/Learning_To_PDG/Resources/Terrain/Textures/ground/Grass01_BigUV.png
     _toggle: 0
     _color: {r: 0, g: 0, b: 0, a: 0}
     _gradient:
@@ -2594,10 +2395,10 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4993
-      labelSH: 4994
-      templateNameSH: 4996
-      helpSH: 4995
+      nameSH: 332
+      labelSH: 333
+      templateNameSH: 335
+      helpSH: 334
       hasMin: 0
       hasMax: 0
       hasUIMin: 0
@@ -2692,10 +2493,10 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 4997
-      labelSH: 4998
-      templateNameSH: 5000
-      helpSH: 4999
+      nameSH: 336
+      labelSH: 337
+      templateNameSH: 339
+      helpSH: 338
       hasMin: 0
       hasMax: 0
       hasUIMin: 0
@@ -2737,7 +2538,7 @@ MonoBehaviour:
     _choiceValue: 0
     _intValues: 
     _floatValues:
-    - 5
+    - 10
     _stringValues: []
     _toggle: 0
     _color: {r: 0, g: 0, b: 0, a: 0}
@@ -2791,10 +2592,10 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 5001
-      labelSH: 5002
-      templateNameSH: 5004
-      helpSH: 5003
+      nameSH: 340
+      labelSH: 341
+      templateNameSH: 343
+      helpSH: 342
       hasMin: 1
       hasMax: 0
       hasUIMin: 1
@@ -2837,7 +2638,7 @@ MonoBehaviour:
     _intValues: 
     _floatValues: []
     _stringValues:
-    - 'Terrain/Textures/rock/Stone_diffuse '
+    - Assets/Learning_To_PDG/Resources/Terrain/Textures/rock/Stone_diffuse.tga
     _toggle: 0
     _color: {r: 0, g: 0, b: 0, a: 0}
     _gradient:
@@ -2890,10 +2691,10 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 5005
-      labelSH: 5006
-      templateNameSH: 5008
-      helpSH: 5007
+      nameSH: 344
+      labelSH: 345
+      templateNameSH: 347
+      helpSH: 346
       hasMin: 0
       hasMax: 0
       hasUIMin: 0
@@ -2988,10 +2789,10 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 5009
-      labelSH: 5010
-      templateNameSH: 5012
-      helpSH: 5011
+      nameSH: 348
+      labelSH: 349
+      templateNameSH: 351
+      helpSH: 350
       hasMin: 0
       hasMax: 0
       hasUIMin: 0
@@ -3033,7 +2834,7 @@ MonoBehaviour:
     _choiceValue: 0
     _intValues: 
     _floatValues:
-    - 5
+    - 20
     _stringValues: []
     _toggle: 0
     _color: {r: 0, g: 0, b: 0, a: 0}
@@ -3087,10 +2888,10 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 5013
-      labelSH: 5014
-      templateNameSH: 5016
-      helpSH: 5015
+      nameSH: 352
+      labelSH: 353
+      templateNameSH: 355
+      helpSH: 354
       hasMin: 1
       hasMax: 0
       hasUIMin: 1
@@ -3133,7 +2934,7 @@ MonoBehaviour:
     _intValues: 
     _floatValues: []
     _stringValues:
-    - Terrain/Textures/grass/Grass_Base_Color
+    - Assets/Learning_To_PDG/Resources/Terrain/Textures/grass/Grass_Base_Color.png
     _toggle: 0
     _color: {r: 0, g: 0, b: 0, a: 0}
     _gradient:
@@ -3186,10 +2987,10 @@ MonoBehaviour:
       size: 1
       choiceListType: 0
       choiceCount: 0
-      nameSH: 5017
-      labelSH: 5018
-      templateNameSH: 5020
-      helpSH: 5019
+      nameSH: 356
+      labelSH: 357
+      templateNameSH: 359
+      helpSH: 358
       hasMin: 0
       hasMax: 0
       hasUIMin: 0
@@ -3225,11 +3026,38 @@ MonoBehaviour:
     _hasAssetPathTag: 0
   _parameterModifiers: []
   _regenerateParameters: 0
-  _presetData: 235053495f5052455345540a76657273696f6e20322e30610a6f706368616e6e656c730a7b0a202020206368616e6e656c20686461705f73697a657879207b0a2020202020206c65667474797065203d20657874656e640a202020202020726967687474797065203d20657874656e640a202020202020666c616773203d20300a2020202020207365676d656e74207b206c656e677468203d20302065787072203d206368285c2273697a65785c2229207d0a202020207d0a20207d0a6f7076616c7565730a7b0a76657273696f6e20302e380a7374647377697463686572095b2030096c6f636b733d30205d09280930093009290a784f7264095b2030096c6f636b733d30205d092809227372742209290a724f7264095b2030096c6f636b733d30205d0928092278797a2209290a74095b2030096c6f636b733d30205d092809300930093009290a72095b2030096c6f636b733d30205d09280930092d30093009290a73095b2030096c6f636b733d30205d092809310931093109290a70095b2030096c6f636b733d30205d092809300930093009290a7072095b2030096c6f636b733d30205d092809300930093009290a7363616c65095b2030096c6f636b733d30205d0928093109290a7072655f78666f726d095b2030096c6f636b733d30205d0928093009290a6b656570706f73095b2030096c6f636b733d30205d092809226f66662209290a6368696c64636f6d70095b2030096c6f636b733d30205d092809226f66662209290a636f6e73747261696e74735f6f6e095b2030096c6f636b733d30205d092809226f66662209290a636f6e73747261696e74735f70617468095b2030096c6f636b733d30205d092809222209290a6c6f6f6b617470617468095b2030096c6f636b733d30205d092809222209290a6c6f6f6b75706f626a70617468095b2030096c6f636b733d30205d092809222209290a6c6f6f6b7570095b2030096c6f636b733d30205d0928096f6e09290a706174686f626a70617468095b2030096c6f636b733d30205d092809222209290a726f6c6c095b2030096c6f636b733d30205d0928093009290a706f73095b2030096c6f636b733d30205d0928093009290a757061726d74797065095b2030096c6f636b733d30205d092809226172632209290a706174686f7269656e74095b2030096c6f636b733d30205d0928093109290a7570095b2030096c6f636b733d30205d092809300931093009290a62616e6b095b2030096c6f636b733d30205d0928093009290a6c6162656c31095b2030096c6f636b733d30205d092809225375622d4e6574776f726b20496e7075742023312209290a6c6162656c32095b2030096c6f636b733d30205d092809225375622d4e6574776f726b20496e7075742023322209290a6c6162656c33095b2030096c6f636b733d30205d092809225375622d4e6574776f726b20496e7075742023332209290a6c6162656c34095b2030096c6f636b733d30205d092809225375622d4e6574776f726b20496e7075742023342209290a74646973706c6179095b2030096c6f636b733d30205d092809226f66662209290a646973706c6179095b2030096c6f636b733d30205d0928093109290a6f75747075746f626a095b2030096c6f636b733d30205d0928095f696e707574315f6f626a5f09290a76697369626c656f626a65637473095b2030096c6f636b733d30205d0928092a09290a7069636b696e67095b2030096c6f636b733d30205d092809226f6e2209290a7069636b736372697074095b2030096c6f636b733d30205d092809222209290a63616368696e67095b2030096c6f636b733d30205d092809226f6e2209290a7573655f64636f6c6f72095b2030096c6f636b733d30205d092809226f6e2209290a64636f6c6f72095b2030096c6f636b733d30205d092809310931093109290a737464737769746368657233095b2030096c6f636b733d30205d092809300930093009290a7465727261696e5f6c61796f7574095b2030096c6f636b733d30205d092809443a2f576f726b5370616365732f4749542f486f7564696e695f5044472f5044472f5044475f546573742f67656f2f756e6974792e77795f7465727261696e5f6c61796f75742e6267656f09290a666f6c64657230095b2030096c6f636b733d30205d0928093009290a686461705f73697a6578095b2030096c6f636b733d30205d09280931303235095b20686461705f73697a6578790930205d2009290a686461705f726164697573095b2030096c6f636b733d30205d092809313009290a686461705f616d70095b2030096c6f636b733d30205d09280931303409290a686461705f656c656d656e745f73697a65095b2030096c6f636b733d30205d09280937303709290a686461705f697465726174696f6e73095b2030096c6f636b733d30205d09280931303009290a666f6c64657231095b2030096c6f636b733d30205d0928093009290a686461705f6672616d65095b2030096c6f636b733d30205d092809323009290a686461705f687964726f5f65726f646162696c697479095b2030096c6f636b733d30205d0928093109290a686461705f616d7032095b2030096c6f636b733d30205d092809313009290a686461705f656c656d656e745f73697a6532095b2030096c6f636b733d30205d09280933333509290a666f6c64657232095b2030096c6f636b733d30205d0928093009290a686461705f76616c7565317631095b2030096c6f636b733d30205d0928093509290a686461705f737472696e6732095b2030096c6f636b733d30205d0928095465727261696e2f54657874757265732f67726f756e642f477261737330315f426967555609290a7365707061726d095b2030096c6f636b733d30205d092809290a686461705f76616c7565317632095b2030096c6f636b733d30205d0928093509290a686461705f737472696e6733095b2030096c6f636b733d30205d092809225465727261696e2f54657874757265732f726f636b2f53746f6e655f64696666757365202209290a7365707061726d32095b2030096c6f636b733d30205d092809290a686461705f76616c7565317633095b2030096c6f636b733d30205d0928093509290a686461705f737472696e6734095b2030096c6f636b733d30205d0928095465727261696e2f54657874757265732f67726173732f47726173735f426173655f436f6c6f7209290a7d0a
+  _presetData: 235053495f5052455345540a76657273696f6e20322e30610a6f706368616e6e656c730a7b0a202020206368616e6e656c20686461705f73697a657879207b0a2020202020206c65667474797065203d20657874656e640a202020202020726967687474797065203d20657874656e640a202020202020666c616773203d20300a2020202020207365676d656e74207b206c656e677468203d20302065787072203d206368285c2273697a65785c2229207d0a202020207d0a20207d0a6f7076616c7565730a7b0a76657273696f6e20302e380a7374647377697463686572095b2030096c6f636b733d30205d09280930093009290a784f7264095b2030096c6f636b733d30205d092809227372742209290a724f7264095b2030096c6f636b733d30205d0928092278797a2209290a74095b2030096c6f636b733d30205d092809300930093009290a72095b2030096c6f636b733d30205d09280930092d30093009290a73095b2030096c6f636b733d30205d092809310931093109290a70095b2030096c6f636b733d30205d092809300930093009290a7072095b2030096c6f636b733d30205d092809300930093009290a7363616c65095b2030096c6f636b733d30205d0928093109290a7072655f78666f726d095b2030096c6f636b733d30205d0928093009290a6b656570706f73095b2030096c6f636b733d30205d092809226f66662209290a6368696c64636f6d70095b2030096c6f636b733d30205d092809226f66662209290a636f6e73747261696e74735f6f6e095b2030096c6f636b733d30205d092809226f66662209290a636f6e73747261696e74735f70617468095b2030096c6f636b733d30205d092809222209290a6c6f6f6b617470617468095b2030096c6f636b733d30205d092809222209290a6c6f6f6b75706f626a70617468095b2030096c6f636b733d30205d092809222209290a6c6f6f6b7570095b2030096c6f636b733d30205d0928096f6e09290a706174686f626a70617468095b2030096c6f636b733d30205d092809222209290a726f6c6c095b2030096c6f636b733d30205d0928093009290a706f73095b2030096c6f636b733d30205d0928093009290a757061726d74797065095b2030096c6f636b733d30205d092809226172632209290a706174686f7269656e74095b2030096c6f636b733d30205d0928093109290a7570095b2030096c6f636b733d30205d092809300931093009290a62616e6b095b2030096c6f636b733d30205d0928093009290a6c6162656c31095b2030096c6f636b733d30205d092809225375622d4e6574776f726b20496e7075742023312209290a6c6162656c32095b2030096c6f636b733d30205d092809225375622d4e6574776f726b20496e7075742023322209290a6c6162656c33095b2030096c6f636b733d30205d092809225375622d4e6574776f726b20496e7075742023332209290a6c6162656c34095b2030096c6f636b733d30205d092809225375622d4e6574776f726b20496e7075742023342209290a74646973706c6179095b2030096c6f636b733d30205d092809226f66662209290a646973706c6179095b2030096c6f636b733d30205d0928093109290a6f75747075746f626a095b2030096c6f636b733d30205d0928095f696e707574315f6f626a5f09290a76697369626c656f626a65637473095b2030096c6f636b733d30205d0928092a09290a7069636b696e67095b2030096c6f636b733d30205d092809226f6e2209290a7069636b736372697074095b2030096c6f636b733d30205d092809222209290a63616368696e67095b2030096c6f636b733d30205d092809226f6e2209290a7573655f64636f6c6f72095b2030096c6f636b733d30205d092809226f6e2209290a64636f6c6f72095b2030096c6f636b733d30205d092809310931093109290a737464737769746368657233095b2030096c6f636b733d30205d092809300930093009290a7465727261696e5f6c61796f7574095b2030096c6f636b733d30205d092809443a2f576f726b5370616365732f4769742f486f7564696e695f5044472f5044472f5044475f546573742f67656f2f7465727261696e5f6c61796f75745f3030312e6267656f09290a666f6c64657230095b2030096c6f636b733d30205d0928093009290a686461705f73697a6578095b2030096c6f636b733d30205d09280931303235095b20686461705f73697a6578790930205d2009290a686461705f726164697573095b2030096c6f636b733d30205d092809313009290a686461705f616d70095b2030096c6f636b733d30205d09280931303409290a686461705f656c656d656e745f73697a65095b2030096c6f636b733d30205d09280937303709290a686461705f697465726174696f6e73095b2030096c6f636b733d30205d09280931303009290a666f6c64657231095b2030096c6f636b733d30205d0928093009290a686461705f6672616d65095b2030096c6f636b733d30205d092809323009290a686461705f687964726f5f65726f646162696c697479095b2030096c6f636b733d30205d0928093109290a686461705f616d7032095b2030096c6f636b733d30205d092809313009290a686461705f656c656d656e745f73697a6532095b2030096c6f636b733d30205d09280933333509290a666f6c64657232095b2030096c6f636b733d30205d0928093009290a686461705f76616c7565317631095b2030096c6f636b733d30205d092809313009290a686461705f737472696e6732095b2030096c6f636b733d30205d0928094173736574732f4c6561726e696e675f546f5f5044472f5265736f75726365732f5465727261696e2f54657874757265732f67726f756e642f477261737330315f42696755562e706e6709290a7365707061726d095b2030096c6f636b733d30205d092809290a686461705f76616c7565317632095b2030096c6f636b733d30205d092809313009290a686461705f737472696e6733095b2030096c6f636b733d30205d0928094173736574732f4c6561726e696e675f546f5f5044472f5265736f75726365732f5465727261696e2f54657874757265732f726f636b2f53746f6e655f646966667573652e74676109290a7365707061726d32095b2030096c6f636b733d30205d092809290a686461705f76616c7565317633095b2030096c6f636b733d30205d092809323009290a686461705f737472696e6734095b2030096c6f636b733d30205d0928094173736574732f4c6561726e696e675f546f5f5044472f5265736f75726365732f5465727261696e2f54657874757265732f67726173732f47726173735f426173655f436f6c6f722e706e6709290a7d0a
   _defaultPresetData: 235053495f5052455345540a76657273696f6e20322e30610a6f706368616e6e656c730a7b0a202020206368616e6e656c20686461705f73697a657879207b0a2020202020206c65667474797065203d20657874656e640a202020202020726967687474797065203d20657874656e640a202020202020666c616773203d20300a2020202020207365676d656e74207b206c656e677468203d20302065787072203d206368285c2273697a65785c2229207d0a202020207d0a20207d0a6f7076616c7565730a7b0a76657273696f6e20302e380a7374647377697463686572095b2030096c6f636b733d30205d09280930093009290a784f7264095b2030096c6f636b733d30205d092809227372742209290a724f7264095b2030096c6f636b733d30205d0928092278797a2209290a74095b2030096c6f636b733d30205d092809300930093009290a72095b2030096c6f636b733d30205d092809300930093009290a73095b2030096c6f636b733d30205d092809310931093109290a70095b2030096c6f636b733d30205d092809300930093009290a7072095b2030096c6f636b733d30205d092809300930093009290a7363616c65095b2030096c6f636b733d30205d0928093109290a7072655f78666f726d095b2030096c6f636b733d30205d0928093009290a6b656570706f73095b2030096c6f636b733d30205d092809226f66662209290a6368696c64636f6d70095b2030096c6f636b733d30205d092809226f66662209290a636f6e73747261696e74735f6f6e095b2030096c6f636b733d30205d092809226f66662209290a636f6e73747261696e74735f70617468095b2030096c6f636b733d30205d092809222209290a6c6f6f6b617470617468095b2030096c6f636b733d30205d092809222209290a6c6f6f6b75706f626a70617468095b2030096c6f636b733d30205d092809222209290a6c6f6f6b7570095b2030096c6f636b733d30205d0928096f6e09290a706174686f626a70617468095b2030096c6f636b733d30205d092809222209290a726f6c6c095b2030096c6f636b733d30205d0928093009290a706f73095b2030096c6f636b733d30205d0928093009290a757061726d74797065095b2030096c6f636b733d30205d092809226172632209290a706174686f7269656e74095b2030096c6f636b733d30205d0928093109290a7570095b2030096c6f636b733d30205d092809300931093009290a62616e6b095b2030096c6f636b733d30205d0928093009290a6c6162656c31095b2030096c6f636b733d30205d092809225375622d4e6574776f726b20496e7075742023312209290a6c6162656c32095b2030096c6f636b733d30205d092809225375622d4e6574776f726b20496e7075742023322209290a6c6162656c33095b2030096c6f636b733d30205d092809225375622d4e6574776f726b20496e7075742023332209290a6c6162656c34095b2030096c6f636b733d30205d092809225375622d4e6574776f726b20496e7075742023342209290a74646973706c6179095b2030096c6f636b733d30205d092809226f66662209290a646973706c6179095b2030096c6f636b733d30205d0928093109290a6f75747075746f626a095b2030096c6f636b733d30205d0928095f696e707574315f6f626a5f09290a76697369626c656f626a65637473095b2030096c6f636b733d30205d0928092a09290a7069636b696e67095b2030096c6f636b733d30205d092809226f6e2209290a7069636b736372697074095b2030096c6f636b733d30205d092809222209290a63616368696e67095b2030096c6f636b733d30205d092809226f6e2209290a7573655f64636f6c6f72095b2030096c6f636b733d30205d092809226f6e2209290a64636f6c6f72095b2030096c6f636b733d30205d092809310931093109290a737464737769746368657233095b2030096c6f636b733d30205d092809300930093009290a7465727261696e5f6c61796f7574095b2030096c6f636b733d30205d092809222209290a666f6c64657230095b2030096c6f636b733d30205d0928093009290a686461705f73697a6578095b2030096c6f636b733d30205d09280931303235095b20686461705f73697a6578790930205d2009290a686461705f726164697573095b2030096c6f636b733d30205d092809313009290a686461705f616d70095b2030096c6f636b733d30205d09280931303409290a686461705f656c656d656e745f73697a65095b2030096c6f636b733d30205d09280937303709290a686461705f697465726174696f6e73095b2030096c6f636b733d30205d09280931303009290a666f6c64657231095b2030096c6f636b733d30205d0928093009290a686461705f6672616d65095b2030096c6f636b733d30205d092809323009290a686461705f687964726f5f65726f646162696c697479095b2030096c6f636b733d30205d0928093109290a686461705f616d7032095b2030096c6f636b733d30205d092809313009290a686461705f656c656d656e745f73697a6532095b2030096c6f636b733d30205d09280933333509290a666f6c64657232095b2030096c6f636b733d30205d0928093009290a686461705f76616c7565317631095b2030096c6f636b733d30205d0928093509290a686461705f737472696e6732095b2030096c6f636b733d30205d092809222209290a7365707061726d095b2030096c6f636b733d30205d092809290a686461705f76616c7565317632095b2030096c6f636b733d30205d0928093509290a686461705f737472696e6733095b2030096c6f636b733d30205d092809222209290a7365707061726d32095b2030096c6f636b733d30205d092809290a686461705f76616c7565317633095b2030096c6f636b733d30205d0928093509290a686461705f737472696e6734095b2030096c6f636b733d30205d092809222209290a7d0a
   _validParameters: 1
   _showParameters: 1
---- !u!1 &900971305
+--- !u!114 &247677401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d064048945a579428d136799401f238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objName: null1
+  _parentAsset: {fileID: 1497792438}
+  _objectInfo:
+    nameSH: 224
+    objectInstancePathSH: 0
+    hasTransformChanged: 0
+    haveGeosChanged: 1
+    isVisible: 1
+    isInstancer: 0
+    isInstanced: 0
+    geoCount: 0
+    nodeId: 3
+    objectToInstanceId: -1
+  _geoNodes:
+  - {fileID: 469788608}
+--- !u!1 &313148278
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3237,42 +3065,155 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 900971307}
-  - component: {fileID: 900971306}
+  - component: {fileID: 313148279}
+  - component: {fileID: 313148280}
   m_Layer: 0
-  m_Name: wy_level_creation_top3_PDGLink
+  m_Name: wy_level_creation_top2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &900971306
+--- !u!4 &313148279
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313148278}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1497792439}
+  - {fileID: 1204284026}
+  - {fileID: 1161727350}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &313148280
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900971305}
+  m_GameObject: {fileID: 313148278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d22482c65bf0a248a742275874c35f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _houdiniAsset: {fileID: 1497792438}
+  _bakeTargets: []
+--- !u!1 &374480707
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 374480708}
+  m_Layer: 0
+  m_Name: texture_terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &374480708
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374480707}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 687994551}
+  m_Father: {fileID: 2087565507}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &469788608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d66a2560bc02844b93f5cd39436c51a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _geoInfo:
+    type: 0
+    nameSH: 236
+    nodeId: 4
+    isEditable: 0
+    isTemplated: 0
+    isDisplayGeo: 1
+    hasGeoChanged: 0
+    hasMaterialChanged: 0
+    pointGroupCount: 0
+    primitiveGroupCount: 0
+    edgeGroupCount: 0
+    partCount: 4
+  _geoName: control1
+  _parts:
+  - {fileID: 1386732341}
+  - {fileID: 20252331}
+  _containerObjectNode: {fileID: 247677401}
+  _inputNode: {fileID: 0}
+  _geoCurve: {fileID: 0}
+  _volumeCache: {fileID: 0}
+  _volumeCaches: []
+--- !u!1 &654357737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 654357739}
+  - component: {fileID: 654357738}
+  m_Layer: 0
+  m_Name: wy_level_creation_top1_PDGLink
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &654357738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654357737}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c12f0d7950432a04797bbd659f75a770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _assetPath: Assets/Learning_To_PDG/HDA/hda/TOPs/wy_level_creation_top.hda
-  _assetGO: {fileID: 1251452663}
-  _assetName: wy_level_creation_top3
-  _assetID: 18
-  _heu: {fileID: 1982195200}
+  _assetGO: {fileID: 313148278}
+  _assetName: wy_level_creation_top1
+  _assetID: 0
+  _heu: {fileID: 1497792438}
   _topNetworks:
-  - _nodeID: 21
+  - _nodeID: 5
     _nodeName: topnet1
     _topNodes:
-    - _nodeID: 22
+    - _nodeID: 6
       _nodeName: get_terrain_layout
-      _parentName: wy_level_creation_top3_topnet1
+      _parentName: wy_level_creation_top1_topnet1
       _workResultParentGO: {fileID: 0}
       _workResults: []
-      _showResults: 1
+      _showResults: 0
       _pdgState: 4
       _workItemTally:
         _totalWorkItems: 1
@@ -3281,12 +3222,12 @@ MonoBehaviour:
         _cookingWorkItems: 0
         _cookedWorkItems: 1
         _erroredWorkItems: 0
-    - _nodeID: 23
+    - _nodeID: 7
       _nodeName: project_heightfield
-      _parentName: wy_level_creation_top3_topnet1
+      _parentName: wy_level_creation_top1_topnet1
       _workResultParentGO: {fileID: 0}
       _workResults: []
-      _showResults: 1
+      _showResults: 0
       _pdgState: 4
       _workItemTally:
         _totalWorkItems: 1
@@ -3295,12 +3236,12 @@ MonoBehaviour:
         _cookingWorkItems: 0
         _cookedWorkItems: 1
         _erroredWorkItems: 0
-    - _nodeID: 24
+    - _nodeID: 8
       _nodeName: erode_terrain
-      _parentName: wy_level_creation_top3_topnet1
+      _parentName: wy_level_creation_top1_topnet1
       _workResultParentGO: {fileID: 0}
       _workResults: []
-      _showResults: 1
+      _showResults: 0
       _pdgState: 4
       _workItemTally:
         _totalWorkItems: 1
@@ -3309,15 +3250,15 @@ MonoBehaviour:
         _cookingWorkItems: 0
         _cookedWorkItems: 1
         _erroredWorkItems: 0
-    - _nodeID: 25
+    - _nodeID: 9
       _nodeName: texture_terrain
-      _parentName: wy_level_creation_top3_topnet1
-      _workResultParentGO: {fileID: 730948559}
+      _parentName: wy_level_creation_top1_topnet1
+      _workResultParentGO: {fileID: 374480707}
       _workResults:
       - _workItemIndex: 0
-        _workItemID: 4
+        _workItemID: 8
         _generatedGOs:
-        - {fileID: 498198778}
+        - {fileID: 687994550}
       _showResults: 1
       _pdgState: 4
       _workItemTally:
@@ -3333,7 +3274,7 @@ MonoBehaviour:
     - erode_terrain
     - texture_terrain
     _selectedTOPIndex: 3
-    _parentName: wy_level_creation_top3
+    _parentName: wy_level_creation_top1
   _topNetworkNames:
   - topnet1
   _selectedTOPNetwork: 0
@@ -3347,16 +3288,16 @@ MonoBehaviour:
     _cookingWorkItems: 0
     _cookedWorkItems: 4
     _erroredWorkItems: 0
-  _loadRootGameObject: {fileID: 1830705717}
+  _loadRootGameObject: {fileID: 2087565506}
   _outputCachePathRoot: Assets/HoudiniEngineAssetCache/Working/wy_level_creation_top
     2/PDGCache
---- !u!4 &900971307
+--- !u!4 &654357739
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900971305}
+  m_GameObject: {fileID: 654357737}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -3364,7 +3305,75 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1006138145
+--- !u!1 &687994550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 687994551}
+  - component: {fileID: 687994552}
+  m_Layer: 0
+  m_Name: wy_level_creation_top1_topnet1_texture_terrain_8_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &687994551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687994550}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2032614551}
+  m_Father: {fileID: 374480708}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &687994552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687994550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3684c2b1b78ea459b0ee6f9708a350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cookNodeID: 10
+  _sessionID: 1952926911568
+  _nodeName: 
+  _initialized: 1
+  _syncing: 0
+  _deleteParent: 0
+  _generatedOutputs:
+  - _outputData:
+      _gameObject: {fileID: 2032614550}
+      _renderMaterials: []
+      _colliders: []
+    _childOutputs: []
+    isInstancer: 0
+  _outputCacheDirectory: Assets/HoudiniEngineAssetCache/Working/wy_level_creation_top
+    2/PDGCache
+  _outputCacheFilePaths: []
+  _generateOptions:
+    _generateUVs: 0
+    _generateTangents: 1
+    _generateNormals: 1
+    _useLODGroups: 1
+    _splitPoints: 0
+  _sessionSyncAutoCook: 1
+  _filePath: D:/WorkSpaces/Git/Houdini_PDG/PDG/PDG_Test/geo/texture_terrain.bego.sc
+--- !u!114 &929020729
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3397,7 +3406,7 @@ MonoBehaviour:
   _showOnlyEditGeometry: 1
   _alwaysCookUpstream: 1
   _paintMeshVisiblity: 0
---- !u!1 &1251452663
+--- !u!1 &1161727349
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3405,47 +3414,59 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1251452664}
-  - component: {fileID: 1251452665}
+  - component: {fileID: 1161727350}
   m_Layer: 0
-  m_Name: wy_level_creation_top3
+  m_Name: null1_control1_control1_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1251452664
+--- !u!4 &1161727350
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1251452663}
+  m_GameObject: {fileID: 1161727349}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1982195201}
-  - {fileID: 718178007}
-  - {fileID: 508537469}
-  m_Father: {fileID: 0}
+  m_Children: []
+  m_Father: {fileID: 313148279}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1251452665
-MonoBehaviour:
+--- !u!1 &1204284025
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1251452663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d22482c65bf0a248a742275874c35f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _houdiniAsset: {fileID: 1982195200}
-  _bakeTargets: []
---- !u!114 &1313930059
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1204284026}
+  m_Layer: 0
+  m_Name: null1_control1_control1_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1204284026
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204284025}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 313148279}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1386732341
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3454,32 +3475,249 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d66a2560bc02844b93f5cd39436c51a, type: 3}
+  m_Script: {fileID: 11500000, guid: 51ce3a7cc3f38404592fdd27226cb0a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _geoInfo:
-    type: 0
-    nameSH: 4886
-    nodeId: 20
-    isEditable: 0
-    isTemplated: 0
-    isDisplayGeo: 1
-    hasGeoChanged: 0
-    hasMaterialChanged: 0
-    pointGroupCount: 0
-    primitiveGroupCount: 0
-    edgeGroupCount: 0
-    partCount: 4
-  _geoName: control1
-  _parts:
-  - {fileID: 31660759}
-  - {fileID: 612682985}
-  _containerObjectNode: {fileID: 2120438273}
-  _inputNode: {fileID: 0}
-  _geoCurve: {fileID: 0}
-  _volumeCache: {fileID: 0}
+  _partID: 0
+  _partName: control1_0
+  _objectNodeID: 3
+  _geoID: 4
+  _partType: 3
+  _geoNode: {fileID: 469788608}
+  _isAttribInstancer: 0
+  _isPartInstanced: 0
+  _partPointCount: 0
+  _isObjectInstancer: 0
+  _objectInstancesGenerated: 0
+  _objectInstanceInfos: []
+  _terrainOffsetPosition: {x: 0, y: 0, z: 0}
+  _assetDBTerrainData: {fileID: 0}
+  _isPartEditable: 0
+  _partOutputType: 4
+  _curve: {fileID: 0}
+  _attributesStore: {fileID: 0}
+  _haveInstancesBeenGenerated: 0
+  _meshVertexCount: 0
+  _generatedOutput:
+    _outputData:
+      _gameObject: {fileID: 1204284025}
+      _renderMaterials: []
+      _colliders: []
+    _childOutputs: []
+    isInstancer: 1
+  _volumeLayerName: 
+--- !u!114 &1443813153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f149f98b4ada1f047b5a0c3d65f45dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showInstanceInputs: 1
+  _numInputsToShowUI: 5
+  _inputsPageIndexUI: 0
+--- !u!1 &1497792437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1497792439}
+  - component: {fileID: 1497792438}
+  m_Layer: 0
+  m_Name: HDA_Data
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1497792438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497792437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 740823ef63d3f6d468aaab5799b16654, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _assetType: 1
+  _assetInfo:
+    nodeId: 0
+    objectNodeId: 0
+    hasEverCooked: 1
+    nameSH: 435
+    labelSH: 436
+    filePathSH: 433
+    versionSH: 398
+    fullOpNameSH: 399
+    helpTextSH: 400
+    helpURLSH: 401
+    objectCount: -1
+    handleCount: 0
+    transformInputCount: 0
+    geoInputCount: 0
+    geoOutputCount: 0
+    haveObjectsChanged: 0
+    haveMaterialsChanged: 0
+  _nodeInfo:
+    id: 0
+    parentId: 2
+    nameSH: 8
+    type: 1
+    isValid: 1
+    totalCookCount: 2
+    uniqueHoudiniNodeId: 16
+    internalNodePathSH: 9
+    parmCount: 64
+    parmIntValueCount: 14
+    parmFloatValueCount: 37
+    parmStringValueCount: 16
+    parmChoiceCount: 47
+    childNodeCount: 2
+    inputCount: 0
+    outputCount: 1
+    createdPostAssetLoad: 1
+    isTimeDependent: 0
+  _assetName: wy_level_creation_top1
+  _assetOpName: Object/wy_level_creation_top
+  _assetHelp: 
+  _assetID: 0
+  _assetPath: Assets/Learning_To_PDG/HDA/hda/TOPs/wy_level_creation_top.hda
+  _loadAssetFromMemory: 0
+  _alwaysOverwriteOnLoad: 0
+  _assetFileObject: {fileID: 102900000, guid: 05f0ca02a13ca2e49bf966d9d162d192, type: 3}
+  _objectNodes:
+  - {fileID: 247677401}
+  _rootGameObject: {fileID: 313148278}
+  _materialCache: []
+  _parameters: {fileID: 108218576}
+  _lastSyncedTransformMatrix:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  _assetCacheFolderPath: Assets/HoudiniEngineAssetCache/Working/wy_level_creation_top
+    2
+  _subassetNames:
+  - Object/wy_level_creation_top
+  _selectedSubassetIndex: 0
+  _totalCookCount: 4
+  _requestBuildAction: 0
+  _checkParameterChangeForCook: 0
+  _skipCookCheck: 0
+  _uploadParameters: 1
+  _forceUploadInputs: 0
+  _upstreamCookChanged: 0
+  _cookStatus: 0
+  _lastCookResult: 1
+  _isCookingAssetReloaded: 0
+  _sessionID: 1952926911568
+  _uiLocked: 1
+  _showHDAOptions: 0
+  _showGenerateSection: 1
+  _showBakeSection: 0
+  _showEventsSection: 0
+  _showCurvesSection: 0
+  _showInputNodesSection: 0
+  _showToolsSection: 0
+  _showTerrainSection: 0
+  _instanceInputUIState: {fileID: 1443813153}
+  _reloadEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _cookedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _bakedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _reloadDataEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _cookedDataEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _bakedDataEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _preAssetEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _downstreamConnectionCookedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _generateUVs: 0
+  _generateTangents: 1
+  _generateNormals: 1
+  _pushTransformToHoudini: 1
+  _transformChangeTriggersCooks: 0
+  _cookingTriggersDownCooks: 1
+  _autoCookOnParameterChange: 1
+  _ignoreNonDisplayNodes: 0
+  _generateMeshUsingPoints: 0
+  _useLODGroups: 1
+  _splitGeosByGroup: 0
+  _sessionSyncAutoCook: 1
+  _bakeUpdateKeepPreviousTransformValues: 0
+  _pauseCooking: 0
+  _curveEditorEnabled: 1
+  _curves: []
+  _curveDrawCollision: 0
+  _curveDrawColliders: []
+  _curveDrawLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  _curveProjectMaxDistance: 1000
+  _curveProjectDirection: {x: 0, y: -1, z: 0}
+  _curveDisableScaleRotation: 0
+  _curveCookOnDrag: 1
+  _curveFrameSelectedNodes: 1
+  _curveFrameSelectedNodeDistance: 20
+  _inputNodes: []
+  _handles: []
+  _handlesEnabled: 1
   _volumeCaches: []
---- !u!114 &1398102340
+  _attributeStores: []
+  _editableNodesToolsEnabled: 0
+  _toolsInfo: {fileID: 929020729}
+  _serializedMetaData: {fileID: 1751206522}
+--- !u!4 &1497792439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497792437}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 313148279}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1751206522
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3492,113 +3730,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _softDeleted: 0
---- !u!1 &1830705717
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1830705718}
-  m_Layer: 0
-  m_Name: wy_level_creation_top3_OUTPUTS
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1830705718
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1830705717}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 730948560}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1839252587
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1839252588}
-  - component: {fileID: 1839252590}
-  - component: {fileID: 1839252589}
-  m_Layer: 0
-  m_Name: heightfield_0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1839252588
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839252587}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -512, y: 0.14329663, z: -512}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 498198779}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!154 &1839252589
-TerrainCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839252587}
-  m_Material: {fileID: 0}
-  m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: 076eca53bd1cb514f88107e423e25491, type: 2}
-  m_EnableTreeColliders: 1
---- !u!218 &1839252590
-Terrain:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839252587}
-  m_Enabled: 1
-  serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: 076eca53bd1cb514f88107e423e25491, type: 2}
-  m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
-  m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
-  m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
-  m_HeightmapMaximumLOD: 0
-  m_ShadowCastingMode: 2
-  m_DrawHeightmap: 1
-  m_DrawInstanced: 1
-  m_DrawTreesAndFoliage: 1
-  m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
-  m_BakeLightProbesForTrees: 1
-  m_PreserveTreePrototypeLayers: 0
-  m_DeringLightProbesForTrees: 1
-  m_ScaleInLightmap: 1
-  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
-  m_GroupingID: 0
-  m_RenderingLayerMask: 1
-  m_AllowAutoConnect: 1
 --- !u!1 &1977623182
 GameObject:
   m_ObjectHideFlags: 0
@@ -3685,14 +3816,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977623182}
-  m_LocalRotation: {x: 0.23497234, y: -0.39426407, z: -0.5121817, w: 0.72595716}
+  m_LocalRotation: {x: 0.40302563, y: -0.10768758, z: -0.3938431, w: 0.8190613}
   m_LocalPosition: {x: 0, y: 16.96, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -3.595, y: -54.561, z: -68.553}
---- !u!1 &1982195199
+  m_LocalEulerAnglesHint: {x: 35.126, y: -37.145, z: -63.502}
+--- !u!1 &2032614550
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3700,233 +3831,102 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1982195201}
-  - component: {fileID: 1982195200}
+  - component: {fileID: 2032614551}
+  - component: {fileID: 2032614553}
+  - component: {fileID: 2032614552}
   m_Layer: 0
-  m_Name: HDA_Data
-  m_TagString: EditorOnly
+  m_Name: heightfield_0
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1982195200
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1982195199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 740823ef63d3f6d468aaab5799b16654, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _assetType: 1
-  _assetInfo:
-    nodeId: 18
-    objectNodeId: 18
-    hasEverCooked: 1
-    nameSH: 5094
-    labelSH: 5095
-    filePathSH: 5092
-    versionSH: 5057
-    fullOpNameSH: 5058
-    helpTextSH: 5059
-    helpURLSH: 5060
-    objectCount: -1
-    handleCount: 0
-    transformInputCount: 0
-    geoInputCount: 0
-    geoOutputCount: 0
-    haveObjectsChanged: 0
-    haveMaterialsChanged: 0
-  _nodeInfo:
-    id: 18
-    parentId: 2
-    nameSH: 4707
-    type: 1
-    isValid: 1
-    totalCookCount: 2
-    uniqueHoudiniNodeId: 53
-    internalNodePathSH: 4708
-    parmCount: 64
-    parmIntValueCount: 14
-    parmFloatValueCount: 37
-    parmStringValueCount: 16
-    parmChoiceCount: 47
-    childNodeCount: 2
-    inputCount: 0
-    outputCount: 1
-    createdPostAssetLoad: 1
-    isTimeDependent: 0
-  _assetName: wy_level_creation_top3
-  _assetOpName: Object/wy_level_creation_top
-  _assetHelp: 
-  _assetID: 18
-  _assetPath: Assets/Learning_To_PDG/HDA/hda/TOPs/wy_level_creation_top.hda
-  _loadAssetFromMemory: 0
-  _alwaysOverwriteOnLoad: 0
-  _assetFileObject: {fileID: 102900000, guid: 05f0ca02a13ca2e49bf966d9d162d192, type: 3}
-  _objectNodes:
-  - {fileID: 2120438273}
-  _rootGameObject: {fileID: 1251452663}
-  _materialCache: []
-  _parameters: {fileID: 821668321}
-  _lastSyncedTransformMatrix:
-    e00: 1
-    e01: 0
-    e02: 0
-    e03: 0
-    e10: 0
-    e11: 1
-    e12: 0
-    e13: 0
-    e20: 0
-    e21: 0
-    e22: 1
-    e23: 0
-    e30: 0
-    e31: 0
-    e32: 0
-    e33: 1
-  _assetCacheFolderPath: Assets/HoudiniEngineAssetCache/Working/wy_level_creation_top
-    2
-  _subassetNames:
-  - Object/wy_level_creation_top
-  _selectedSubassetIndex: 0
-  _totalCookCount: 5
-  _requestBuildAction: 0
-  _checkParameterChangeForCook: 0
-  _skipCookCheck: 0
-  _uploadParameters: 1
-  _forceUploadInputs: 0
-  _upstreamCookChanged: 0
-  _cookStatus: 0
-  _lastCookResult: 1
-  _isCookingAssetReloaded: 0
-  _sessionID: 1751797679888
-  _uiLocked: 1
-  _showHDAOptions: 0
-  _showGenerateSection: 1
-  _showBakeSection: 0
-  _showEventsSection: 0
-  _showCurvesSection: 0
-  _showInputNodesSection: 0
-  _showToolsSection: 0
-  _showTerrainSection: 0
-  _instanceInputUIState: {fileID: 2061472909}
-  _reloadEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _cookedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _bakedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _reloadDataEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _cookedDataEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _bakedDataEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _preAssetEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _downstreamConnectionCookedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _generateUVs: 0
-  _generateTangents: 1
-  _generateNormals: 1
-  _pushTransformToHoudini: 1
-  _transformChangeTriggersCooks: 0
-  _cookingTriggersDownCooks: 1
-  _autoCookOnParameterChange: 1
-  _ignoreNonDisplayNodes: 0
-  _generateMeshUsingPoints: 0
-  _useLODGroups: 1
-  _splitGeosByGroup: 0
-  _sessionSyncAutoCook: 1
-  _bakeUpdateKeepPreviousTransformValues: 0
-  _pauseCooking: 0
-  _curveEditorEnabled: 1
-  _curves: []
-  _curveDrawCollision: 0
-  _curveDrawColliders: []
-  _curveDrawLayerMask:
-    serializedVersion: 2
-    m_Bits: 0
-  _curveProjectMaxDistance: 1000
-  _curveProjectDirection: {x: 0, y: -1, z: 0}
-  _curveDisableScaleRotation: 0
-  _curveCookOnDrag: 1
-  _curveFrameSelectedNodes: 1
-  _curveFrameSelectedNodeDistance: 20
-  _inputNodes: []
-  _handles: []
-  _handlesEnabled: 1
-  _volumeCaches: []
-  _attributeStores: []
-  _editableNodesToolsEnabled: 0
-  _toolsInfo: {fileID: 1006138145}
-  _serializedMetaData: {fileID: 1398102340}
---- !u!4 &1982195201
+--- !u!4 &2032614551
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1982195199}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 2032614550}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -512, y: 0.123413935, z: -512}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1251452664}
+  m_Father: {fileID: 687994551}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2061472909
-MonoBehaviour:
+--- !u!154 &2032614552
+TerrainCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2032614550}
+  m_Material: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f149f98b4ada1f047b5a0c3d65f45dd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInstanceInputs: 1
-  _numInputsToShowUI: 5
-  _inputsPageIndexUI: 0
---- !u!114 &2120438273
-MonoBehaviour:
+  m_TerrainData: {fileID: 15600000, guid: e7fd7c550fd704344be2c36d5f67f5fe, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &2032614553
+Terrain:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2032614550}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d064048945a579428d136799401f238, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _objName: null1
-  _parentAsset: {fileID: 1982195200}
-  _objectInfo:
-    nameSH: 4885
-    objectInstancePathSH: 0
-    hasTransformChanged: 0
-    haveGeosChanged: 1
-    isVisible: 1
-    isInstancer: 0
-    isInstanced: 0
-    geoCount: 0
-    nodeId: 19
-    objectToInstanceId: -1
-  _geoNodes:
-  - {fileID: 1313930059}
+  serializedVersion: 6
+  m_TerrainData: {fileID: 15600000, guid: e7fd7c550fd704344be2c36d5f67f5fe, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 2
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 1
+  m_DrawTreesAndFoliage: 1
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ScaleInLightmap: 1
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_RenderingLayerMask: 1
+  m_AllowAutoConnect: 1
+--- !u!1 &2087565506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2087565507}
+  m_Layer: 0
+  m_Name: wy_level_creation_top1_OUTPUTS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2087565507
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087565506}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 374480708}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

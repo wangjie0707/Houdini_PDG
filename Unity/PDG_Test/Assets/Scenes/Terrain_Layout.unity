@@ -2868,7 +2868,7 @@ MonoBehaviour:
     _help: 
     _childParameterIDs: 
     _choiceValue: 0
-    _intValues: 01000000
+    _intValues: 00000000
     _floatValues: []
     _stringValues: []
     _toggle: 0
@@ -3335,7 +3335,7 @@ MonoBehaviour:
   _forceUploadInputs: 0
   _upstreamCookChanged: 0
   _cookStatus: 0
-  _lastCookResult: 1
+  _lastCookResult: 2
   _isCookingAssetReloaded: 0
   _sessionID: 2213450976576
   _uiLocked: 1
@@ -3546,7 +3546,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1704300651
 MonoBehaviour:
   m_ObjectHideFlags: 0
