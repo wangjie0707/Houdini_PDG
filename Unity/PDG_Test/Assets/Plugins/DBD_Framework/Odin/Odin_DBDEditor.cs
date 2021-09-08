@@ -25,6 +25,8 @@ namespace DBD.Editor
             //客户端应用文件
             tree.AddAssetAtPath("File Move", "Plugins/DBD_Framework/Odin/AssetMenu/FileMove_Setting.asset").AddIcon(EditorIcons.AlertCircle);
 
+            tree.AddAssetAtPath("ReopenProject", "Plugins/DBD_Framework/Odin/AssetMenu/ReopenProject_Setting.asset").AddIcon(EditorIcons.Refresh);
+
             return tree;
         }
     }
