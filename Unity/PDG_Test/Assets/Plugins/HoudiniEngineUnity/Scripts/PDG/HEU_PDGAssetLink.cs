@@ -786,7 +786,7 @@ namespace HoudiniEngineUnity
 	    // Create HEU_GeoSync objects, set results, and sync it
 
 	    string workItemName = HEU_SessionManager.GetString(workItemInfo.nameSH, session);
-	    //HEU_Logger.LogFormat("Work item: {0}:: name={1}, results={2}", workItemInfo.index, workItemName, workItemInfo.numResults);
+	    HEU_Logger.LogFormat("Work item: {0}:: name={1}, results={2}", workItemInfo.index, workItemName, workItemInfo.numResults);
 
 	    // Clear previously generated result
 	    ClearWorkItemResultByID(topNode, workItemID);
@@ -819,7 +819,7 @@ namespace HoudiniEngineUnity
 		string path = HEU_SessionManager.GetString(resultInfos[i].resultSH, session);
 
 
-		//HEU_Logger.LogFormat("Result for work item {0}: result={1}, tag={2}, path={3}", result._workItemIndex, i, tag, path);
+	    HEU_Logger.LogFormat("Result for work item {0}: result={1}, tag={2}, path={3}", result._workItemIndex, i, tag, path);
 
 		if (string.IsNullOrEmpty(tag) || !tag.StartsWith("file"))
 		{

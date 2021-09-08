@@ -49,26 +49,28 @@ namespace HoudiniEngineUnity
     /// </summary>
     public class HEU_GeoSync : HEU_BaseSync
     {
-	#region FUNCTIONS
+        #region FUNCTIONS
 
-	protected override void SetupLoadTask(HEU_SessionBase session)
-	{
-	    if (_loadTask == null)
-	    {
-		_loadTask = new HEU_ThreadedTaskLoadGeo();
-	    }
+        protected override void SetupLoadTask(HEU_SessionBase session)
+        {
+            if (_loadTask == null)
+            {
+                _loadTask = new HEU_ThreadedTaskLoadGeo();
+            }
+            HEU_Logger.LogFormat("CookNodeID={0}, FilePath={1}", _cookNodeID, _filePath);
 
-	    _loadTask.SetupLoadFile(session, this, _cookNodeID, _filePath);
-	    _loadTask.Start();
-	}
+            _loadTask.SetupLoadFile(session, this, _cookNodeID, _filePath);
 
-	#endregion
+            _loadTask.Start();
+        }
 
-	#region DATA
+        #endregion
 
-	public string _filePath = "";
+        #region DATA
 
-	#endregion
+        public string _filePath = "";
+
+        #endregion
     }
 
 }   // HoudiniEngineUnity
